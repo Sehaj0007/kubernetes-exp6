@@ -22,7 +22,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: yourdockerhubuser/yourapp:${{ github.sha }}
+        tags: sehaj07/yourapp:${{ github.sha }}
 
     - name: Update Deployment YAML
       run: |

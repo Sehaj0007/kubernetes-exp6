@@ -1,0 +1,10 @@
+node_modules/
+.git/
+*.log
+*.tar
+*.zip
+*.jar
+*.war
+target/
+build/
+dist/
